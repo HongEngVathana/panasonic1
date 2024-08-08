@@ -54,12 +54,15 @@ body {
   border-radius: 4px;
   text-transform: uppercase;
   transition: all 0.3s ease;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(249, 146, 4);
 }
 .content .call-btn:hover {
   background-color: #ffffff;
   color: #000;
   cursor: pointer;
-  transform: scaleX(1.04);
+  transform: scale(1.04);
 }
 /* main section */
 .section-1 {
