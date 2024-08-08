@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 400px;
+}
+
+element.style {
+  background-image: url(/img/63.avif);
+}
+.single-page-title-area {
+  padding: 100px 0;
+  margin-top: -1px;
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  width: 100%;
+}
+
+user agent stylesheet section {
+  display: block;
+  unicode-bidi: isolate;
+}
+.auto-container {
+  position: static;
+  max-width: 1400px;
+  padding: 0px 15px;
+  height: auto;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #777777;
+  line-height: 1.9em;
+  font-weight: 400;
+  margin: auto;
+  background: #fff;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+
+.single-page-title h3 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 50px;
+}
+
+.single-page-title h4 {
+  color: #f7941e;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+.single-page-title h1 {
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+}
+.btn-call {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background: none;
+  color: white;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+  margin: 5px 5px;
+}
+
+.btn-call:hover {
+  background-color: #fff;
+  color: #000;
+  transform: scaleX(1.04);
+}
+.single-page-title-area .breadcrumb {
+  background-color: transparent;
+  margin: 20px 0 0;
+  position: absolute;
+  right: 5px;
+}
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.btn-banner {
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-weight: 520;
+}
+
+.btn-banner:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+.single-page-title span {
+  position: relative;
+  background-color: #fff;
+  height: 2px;
+  width: 55%;
+  display: inline-block;
+}
+
+.single-page-title-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #000;
+  opacity: 0.6;
+  z-index: -1;
+}
+.wsite-button-inner {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  background: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+  margin: 5px 5px;
+}
+.wsite-button-inner:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transform: scaleX(1.04);
+}
+.section-pad {
+  padding: 100px 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.wsite-multicol {
+  flex-wrap: wrap;
+}
+.H2 {
+  color: rgb(221, 64, 64);
+}
+.ul1 {
+  color: #000;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.h1u {
+  color: rgb(15, 78, 94);
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 767px) {
+  .single-page-title {
+    text-align: center;
+  }
+}
+.single-page-title-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #000;
+  opacity: 0.5;
+  z-index: -1;
+}
+@media only screen and (max-width: 767px) {
+  .imginbaner {
+    margin-top: 72px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .paragraph1 {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .paragraph {
+    text-align: center;
+    margin-top: 72px;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .wsite-multicol {
+    flex-wrap: wrap;
+  }
+}

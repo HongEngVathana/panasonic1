@@ -1,0 +1,98 @@
+.text-justify {
+  text-align: justify;
+}
+span {
+  color: #1c75bc;
+}
+h2,
+h4 {
+  color: #f7941e;
+}
+.phone strong {
+  color: #f7941e;
+  cursor: pointer;
+}
+.phone strong:hover {
+  transition: 0.5s;
+  color: #1c75bc;
+}
+.bg-about-header {
+  background: url("../../images/aboutusvtn/bgaboutus.jpg") no-repeat center
+    center;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  height: 500px;
+  width: 1005;
+  margin: 0 !important;
+}
+/* .contant h1 {
+  width: 40rem;
+} */
+.btn {
+  transition: 0.5s;
+  font-weight: 500;
+}
+.py .fw-semi-bold {
+  font-weight: 500 !important;
+}
+.rounded {
+  border-radius: 8px !important;
+}
+.py-1 {
+  color: #f7941e;
+}
+.py-1 {
+  padding-top: 0.25rem !important;
+  padding-left: 1rem !important;
+}
+.boder {
+  border: 1px solid #dfdfdf !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.mt-5 {
+  margin-top: 4rem !important;
+}
+p {
+  display: block;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  unicode-range: isolate;
+}
+.phone h3 {
+  border: 1px solid #f7941e;
+  border-radius: 20px;
+  width: 200px;
+  padding: 5px;
+}
+.text-title {
+  color: #f7941e;
+}
+.text-title:hover {
+  color: #1c75bc;
+}
+.main-contect h4 {
+  color: #1c75bc;
+  transition: 1s;
+}
+.main-contect h4:hover {
+  color: #f7941e;
+}
+.text-content {
+  text-align: justify;
+}
+.facts {
+  background-color: #d5d2d0;
+}
+/* .img-product {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+} */
+
+.history-bg {
+  background-color: aliceblue;
+  height: 330px;
+}
